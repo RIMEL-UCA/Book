@@ -1,4 +1,4 @@
-# Projet 2
+# Projet 2 : Comment identifier les zones sensibles d'un code Open Source ?
 
 **Date de rendu finale : March 2018 au plus tard**
 
@@ -12,22 +12,35 @@ Utilisez des références pour justifier votre argumentaire, vos choix etc.
 
 ## Authors
 
-We are four students in last year of Polytech' Nice-Sophia specialized in Software Architecture :
+Nous sommes quatre étudiants en Master 2 d'Architecture logicielle : 
 
-* .... &lt;xxx@gmail.com&gt;
+* Rudy Meersman &lt;rudy.meersman@etu.unice.fr&gt;
+* Gaétan Duminy &lt;gaetan.duminy@etu.unice.fr&gt;
+* Damien Fornali &lt;damien.fornali@etu.unice.fr&gt;
+* Amandine Benza &lt;amandine.benza@etu.unice.fr&gt;
+
 
 ## I. Research context /Project
 
-Préciser ici votre contexte.
-
-Pourquoi c'est intéressant.
+- Présenter XWiki
+- But/Contexte/Contributeur
+- Pourquoi interessant étudier XWiki et projets Open Source en général
+- ...
 
 ## II. Observations/General question
 
 1. Commencez par formuler une question sur quelque chose que vous observez ou constatez ou encore une idée émergente. Attention pour répondre à cette question vous devrez être capable de quantifier vos réponses.
 2. Préciser bien pourquoi cette question est intéressante de votre point de vue et éventuellement en quoi la question est plus générale que le contexte de votre projet \(ex: Choisir une libraire de code est un problème récurrent qui se pose très différemment cependant en fonction des objectifs\)
 
-Cette première étape nécessite beaucoup de réflexion pour se définir la bonne question afin de poser les bonnes bases pour la suit.
+Cette première étape nécessite beaucoup de réflexion pour se définir la bonne question afin de poser les bonnes bases pour la suite.
+
+Notes en vrac : 
+- Améliorer la qualité d'un code Open Source => Trouver où ajouter des tests.
+- Plusieurs questions se posent : Où trouver les tests existants ? Est-il nécessaire de tout tester ? Comment trouver les zones chaudes d'un code ? 
+- Une zone chaude étant ici un composant fortement sollicité lors d'une utilisation classique de XWiki. 
+(On associe ici la métrique de la chaleur à la fréquence d'accès à un composant lors d'une utilisation classique de XWiki)
+- On arrive donc à l'hypothèse suivante : les points chauds d'un projet sont-ils ceux qui causent le plus de problèmes?
+
 
 ## III. information gathering
 
@@ -35,6 +48,11 @@ Préciser vos zones de recherches en fonction de votre projet,
 
 1. les articles ou documents utiles à votre projet
 2. les outils
+- Jira
+- Gitub
+- Jenkins
+- SonarQube
+- CodeCity
 
 ## IV. Hypothesis & Experiences
 
