@@ -1,15 +1,5 @@
 # Impact des contributeurs minoritaires sur la qualité du code des projets open-source
 
-**Date de rendu finale : March 2018 au plus tard**
-
-Remarques :
-
-Les titres peuvent changer pour etre en adéquation avec votre étude.
-
-De même il est possible de modifier la structure, celle qui est proposée ici est là pour vous aider.
-
-Utilisez des références pour justifier votre argumentaire, vos choix etc.
-
 ## Authors
 
 We are four students in last year of Polytech' Nice-Sophia specialized in Software Architecture :
@@ -147,19 +137,19 @@ Après avoir obtenu nos résultats, nous arrivons aux données suivantes :
 
 **A. Bug**
 
-![](../.gitbook/assets/TITLE_BUG.png)
+![](../.gitbook/assets/git04.png)
 
 Pour ce qui est des bugs, nous pouvons constater sur les 8 projets analysés, 75% contiennent un ratio bug/ligne amplement supérieur pour les commits des contributeurs minoritaires par rapport aux majoritaires.
 
 **B. Vulnérabilités**
 
-![](../.gitbook/assets/TITLE_VULNE.png)
+![](../.gitbook/assets/git03.png)
 
 Au niveau des vulnérabilités introduites, on reste sur un constat plus négligé, avec une répartition égale entre les groupes de contributeurs. Cependant, on note une différence très nette, dans un sens ou dans l'autre entre nos groupes de contributeurs sur cette métrique.
 
 **C. Code smell**
 
-![](../.gitbook/assets/TITLE_CODE_SMELL.png)
+![](../.gitbook/assets/git02.png)
 
 Pour ce qui est du code smell par ligne de code, on repasse sur des contributions négatives effectuées en premier lieu \(75%\) par les contributeurs minoritaires. Il est intéressant de constater que la différence entre les 2 groupes est très forte si le ratio est dominé par les contributeurs minoritaires alors qu'à l'inverse, elle est presque négligeable si ce sont les contributeurs majoritaires qui apportent le moins bon ratio.
 
@@ -167,7 +157,7 @@ Cela met en avant une rigueur moins forte des contributeurs minoritaires sur ce 
 
 **D. Code dupliqué**
 
-![](../.gitbook/assets/TITLE_DUPLICATION.png)
+![](../.gitbook/assets/git01.png)
 
 Enfin, cette dernière métrique apporte des constatations très similaires avec pour un projet près d'une ligne sur 4 qui est dupliquée par les contributeurs minoritaires.
 
