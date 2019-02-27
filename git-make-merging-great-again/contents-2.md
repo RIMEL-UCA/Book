@@ -46,8 +46,6 @@ Enfin, les deux études précédemment réalisées portent toutes deux sur des p
 
 Pour arriver à extraire les informations intéressantes, nous avons procédé en deux étapes :
 
-Pour arriver à extraire les informations intéressantes, nous avons procédé en deux étapes :
-
 **A. Sélection des projets**
 
 Pour accélérer cette récolte d'informations, nous sommes partis, comme expliquer précédemment, de Kaggle. Le jeu de données utilisées regroupant plus de 2 millions de projets open-source, nous avons garanti une sélection aléatoire et diversifiée et donc nous éliminons un biais quant au choix des repos analysés.
