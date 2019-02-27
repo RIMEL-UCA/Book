@@ -123,7 +123,7 @@ Dans le cadre de cette étude, nous n'avons pas pu effectuer l'analyse sur un gr
 
 Après avoir obtenu nos résultats, nous arrivons aux données suivantes :
 
-|  | **Duplications** | **Vulnérabilités** | **Code Smell** | **Duplications** |  |  |  |  |
+|  | **Bug** | \*\*\*\* | **Vulnérabilités** | \*\*\*\* | **Code Smell** |  | **Duplications** |  |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 |  | Minoritaires | Majoritaires | Minoritaires | Majoritaires | Minoritaires | Majoritaires | Minoritaires | Majoritaires |
 | OpenFeign/feign | 43 | 53 | 9 | 16 | 2462 | 3007 | 4739 | 5079 |
