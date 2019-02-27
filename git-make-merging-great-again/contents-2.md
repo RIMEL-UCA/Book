@@ -93,7 +93,7 @@ Nous avons choisi de conserver 4 métriques principales :
 
 Ces métriques standards reflétant différents pans de la qualité logicielle, nous les avons choisis pour asseoir notre étude.
 
-### IV. Hypothèses et expériences
+## IV. Hypothèses et expériences
 
 Maintenant que nous connaissons les informations que nous allons collecter, il est important de décrire quels protocoles vont être mis en place pour répondre à nos questionnements.
 
@@ -115,7 +115,7 @@ Un protocole très similaire a été mis en place, en regardant cette fois-ci no
 
 Nous avions la possibilité de regarder la pérénnité en terme de commit, c'est a dire le nombre de commit effectués sur le projet entre chaque modification d'une ligne, mais une mesure temporelle nous semblait plus juste puisque les commits peuvent être séparés de plusieurs mois sur certains projets, rendant les mesures trop peu consistantes.
 
-### V. Analyse des résultats
+## V. Analyse des résultats
 
 Dans le cadre de cette étude, nous n'avons pas pu effectuer l'analyse sur un grand nombre de dépôts Github. Cette dernière a été limitée par le temps d'analyse qui pouvait être très important. En effet, il nous a fallu plus de 36 heures pour analyser chaque version de 8 dépôts Github. Ainsi, il n'était pas possible de réaliser dans le temps alloué une analyse sur plus d'une centaine de dépôts comme nous l'avons initialement souhaité.
 
@@ -173,7 +173,7 @@ Ensuite, l'utilisation de SonarQube peut être critiquée. Bien que les métriqu
 
 Enfin, il est important de remarquer qu'un des aspects portant sur la pérennité du code des contritubuteurs minoritaires n'a pas été abordé faute de temps. Le travail sur la pérennité du code aurait pu, entre autres, enlever le doute sur la validité de SonarQube pour notre étude. On peut en effet supposer que si un code est jugé de mauvaise qualité par les autres développeurs, alors celui-ci sera modifié, remplacé ou supprimé. Ainsi, la pérennité nous donne un indice fiable de la qualité de code. Cet indice manque cependant de précision sur les parties du code impacté par ces changements de qualité. C'est pourquoi nous envisagions de coupler l'analyse de la pérennité avec l'analyse de SonarQube afin d'obtenir une estimation de la qualité du code à la fois fiable et précise.
 
-### VI. Conclusion
+## VI. Conclusion
 
 Grâce à nos analyses, nous pouvons conclure qu'il y a bien un lien entre la qualité du code et le profil du contributeur associé à ce code. De manière générale, un contributeur minoritaire va proposer du code de moins bonne qualité que ses homologues majoritaires.
 
@@ -181,7 +181,7 @@ Il reste important de cependant nuancer nos résultats étant donnés la très f
 
 Ainsi, il est intéressant par la suite de se pencher sur des données plus conséquentes et de creuser dans cette voie afin de constater ou non nos observations de façon plus générale. Nous pouvons également mettre en avant un aspect temporel dans les futures analyses avec la pérennité d'un code selon les profils. On peut également s'intéresser aux profils des projets en eux-mêmes en regardant par exemple leur hiérarchie afin de voir les impacts de cette dernière sur la qualité des différents profils des contributeurs.
 
-### VII. Outils
+## VII. Outils
 
 Nos outils et datasets sont entièrement disponibles à [cette adresse](https://github.com/FlorianLehmann/rimel).
 
@@ -192,7 +192,7 @@ Pour reproduire cette expérimentation, il faut suivre les explications de chaqu
 * Le clonage du contenu de chaque repositories dans le dossier "clone\_repositories" 
 * Et enfin, l'analyse avec sonarqube dans le dossier "sonarqube\_analysis".
 
-### VIII. References
+## VIII. References
 
 1. Christian Bird , Nachiappan Nagappan , Brendan Murphy , Harald Gall , Premkumar Devanbu, Don't touch my code!: examining the effects of ownership on software quality, Proceedings of the 19th ACM SIGSOFT symposium and the 13th European conference on Foundations of software engineering, September 05-09, 2011, Szeged, Hungary
 2. Matthieu Foucault , Jean-Rémy Falleri , Xavier Blanc, Code ownership in open-source software, Proceedings of the 18th International Conference on Evaluation and Assessment in Software Engineering, May 13-14, 2014, London, England, United Kingdom
