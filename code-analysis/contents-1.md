@@ -137,17 +137,17 @@ Finalement, on obtient pour chaque commit la complexité qu’il apporte par rap
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:center">Complexité totale ajoutée</td>
+      <td style="text-align:center">Complexit&#xE9; totale ajout&#xE9;e</td>
       <td style="text-align:center">3158</td>
       <td style="text-align:center">687</td>
     </tr>
     <tr>
-      <td style="text-align:center">Nombre de commit analysé</td>
+      <td style="text-align:center">Nombre de commit analys&#xE9;</td>
       <td style="text-align:center">1000</td>
       <td style="text-align:center">421</td>
     </tr>
     <tr>
-      <td style="text-align:center">Complexité moyenne</td>
+      <td style="text-align:center">Complexit&#xE9; moyenne</td>
       <td style="text-align:center">3.16</td>
       <td style="text-align:center">1.63</td>
     </tr>
@@ -157,23 +157,23 @@ Finalement, on obtient pour chaque commit la complexité qu’il apporte par rap
       <td style="text-align:center">0</td>
     </tr>
     <tr>
-      <td style="text-align:center">Médiane</td>
+      <td style="text-align:center">M&#xE9;diane</td>
       <td style="text-align:center">1</td>
       <td style="text-align:center">0</td>
     </tr>
     <tr>
-      <td style="text-align:center">3ème quartile</td>
+      <td style="text-align:center">3&#xE8;me quartile</td>
       <td style="text-align:center">3</td>
       <td style="text-align:center">1</td>
     </tr>
     <tr>
-      <td style="text-align:center">Nombre de commit augmentant la complexité</td>
+      <td style="text-align:center">Nombre de commit augmentant la complexit&#xE9;</td>
       <td style="text-align:center">222 (22%)</td>
       <td style="text-align:center">259 (62%)</td>
     </tr>
     <tr>
       <td style="text-align:center">
-        <p>Commit entraînant un gros changement</p>
+        <p>Commit entra&#xEE;nant un gros changement</p>
         <p></p>
       </td>
       <td style="text-align:center">15 (1.5%)</td>
