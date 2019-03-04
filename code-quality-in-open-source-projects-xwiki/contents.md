@@ -1,4 +1,4 @@
-# Projet 1 : How to improve contributors onboarding
+# How to improve contributors onboarding
 
 ## Auteurs
 

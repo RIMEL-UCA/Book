@@ -35,7 +35,7 @@ C'est dans ce contexte que se situe notre étude. Nous allons analyser un projet
 
 _**XWiki**_ est un projet **Open Source** mature \(écrit majoritairement en ****Java\)**,** démarré en 2003**,** distribué selon les termes de la licence **GNU LGPL** et mettant l'accent sur l'extensibilité. Son objectif est de proposer une plateforme générique offrant des services d'exécution pour les applications construites sur cette plateforme.
 
-Même si ce type de solution est très courante sur le net ou dans les intranet de sociétés, attention à ne pas le confondre avec le premier venu. Il se targue en effet d’être non seulement un “**Wiki d’entreprise**” mais aussi un “**Wiki Applicatif**” ce qui fait de lui bien plus qu’un simple outil de gestion d’articles.
+Même si ce type de solution est très courant sur le net ou dans les intranet de sociétés, attention à ne pas le confondre avec le premier venu. Il se targue en effet d’être non seulement un “**Wiki d’entreprise**” mais aussi un “**Wiki Applicatif**” ce qui fait de lui bien plus qu’un simple outil de gestion d’articles.
 
 _XWiki_ apporte une solution générique et configurable au client. Cela permet d'avoir un seul produit initial et de le décliner de diverses façon suivant les besoins du client. Cette solution va permettre aux clients de _XWiki_ \(typiquement une entreprise nécessitant de regrouper des informations\) d'obtenir sa propre base de connaissance structurée. _XWiki_ propose aussi une interface permettant à ses utilisateurs d'avoir en plus la possibilité de personnaliser les barres latérales de leur interface pour améliorer leur appréhension personnelle de l’outil.
 
@@ -53,11 +53,11 @@ De ces diverses questions découle la problématique à laquelle nous souhaition
 
 En cherchant à valider cette hypothèse, nous pourrions ainsi tenter d'identifier les zones les plus sensibles d'un projet tel que _XWiki_.
 
-### 2.2. Première méthodologie 
+### 2.2. Première étape 
 
 Afin de valider cette hypothèse, nous avons envisagé de mettre en place la méthodologie décrite ci-dessous. 
 
-Tout d'abord, nous souhaitions identifier quelles parties de _XWiki_ sont les plus utilisées par des utilisateurs lambda, en récupérant par exemple des statistiques sur le nombre d'utilisations de certains composants. Cette première étape nous aurait permis de commencer à discerner des zones chaudes.
+Tout d'abord, nous souhaitions identifier quelles parties de _XWiki_ sont les plus utilisées par des utilisateurs lambda, en récupérant par exemple des statistiques sur le nombre d'utilisations de certains composants. Cette première étape nous aurait permis de commencer à discerner des "zones chaudes".
 
 Ensuite, chaque membre de notre groupe aurait installé _XWiki_ puis suivi des cas d'utilisation prédéfinis. Par exemple en éditant certaines pages, en commentant des sections, etc...Nous aurions gardé des traces de nos parcours afin de comparer nos différentes utilisations. Ces traces nous auraient permis de distinguer les composants les plus utilisés lors d'une utilisation basique de _XWiki_.
 
@@ -102,7 +102,7 @@ Afin de collecter des données nécessaires à la réalisation de notre méthodo
 
 * **Github**
 
-_Github_ est l'hôte des sources de _XWiki_. Il nous a notamment permis d'avoir une meilleure vue de l'architecture globale du projet et d'ainsi définir le sous-projet \(repository\) sur lequel nous concentrer. 
+_Github_ est l'hôte des sources de _XWiki_. Il nous a notamment permis d'avoir une meilleure vue de l'architecture globale du projet et d'ainsi sélectionner le sous-projet \(repository\) sur lequel nous concentrer. 
 
 * **Jira**
 
@@ -169,6 +169,8 @@ En suivant la méthodologie présentée plus tôt, nous pouvons discerner cinq e
 
 Vous trouverez ci-dessous un schéma résumant notre démarche.
 
+Grâce à ces deux métriques, nous en avons créé une nouvelle : l'indice de sensibilité \(_calculé en fonction du nombre de bugs pondéré par leur sévérité sur le nombre de bug dans le composant_\). Celui-ci a été calculé à partir des critères précédents et permet de prendre en compte plusieurs métriques de façon simultanée. Ainsi grâce à ce nouvel indice, on peut revenir sur nos résultat précédents et constater que les composants posant problème ont changé. On a donc on première position le composant **Wiki** \(en doré sur la _`Figure 5`_\), ensuite le composant **Notifications** \(en argent sur la _`Figure 5`_\) et enfin le composant **OldCore** \(en bronze sur la _`Figure 5`_\).
+
 ![Figure 1 : Sch&#xE9;ma r&#xE9;sumant nos diff&#xE9;rentes exp&#xE9;riences](../.gitbook/assets/schemaexperiences.png)
 
 ### 4.2.1. Expériences 1-2-3 <a id="docs-internal-guid-51382e29-7fff-2108-5bbb-1ef6c6d7fddd"></a>
@@ -230,8 +232,6 @@ Suite aux résultats obtenus dans l'**expérience 1**, nous avons analysé les b
 Dans une première approche de ces données, nous pourrions identifier les composants **OldCore**, **Web** et **WYSWIG** comme ceux posant le plus de problèmes. En effet, en étudiant la _`Figure 5`_,  nous pouvons constater que ce sont ceux présentant le plus de bugs dans la ligne _"Total"_  \(803 pour **OldCore**, 948 pour **Web**, etc...\).
 
 Cependant, le nombre de bugs d'un composant n'est ici que le premier critère que nous avons décidé de prendre en compte. En effet, nous avons également fait le choix d'utiliser la sévérité des bugs comme critère. 
-
-Grâce à ces deux métriques, nous en avons créé une nouvelle : l'indice de sensibilité. Celui-ci a été calculé à partir des critères précédents et permet de prendre en compte plusieurs métriques de façon simultanée. Ainsi grâce à ce nouvel indice, on peut revenir sur nos résultat précédents et constater que les composants posant problème ont changé. On a donc on première position le composant **Wiki** \(en doré sur la _`Figure 5`_\), ensuite le composant **Notifications** \(en argent sur la _`Figure 5`_\) et enfin le composant **OldCore** \(en bronze sur la _`Figure 5`_\).
 
 Ce sont les composants au fort indice de sensibilité que nous avons pris en compte pour la suite de ces expériences.  
 

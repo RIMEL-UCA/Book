@@ -17,7 +17,7 @@ Les dépendances sont un merveilleux moyen de réutiliser des codes existants et
 
 De plus, un projet de taille importante contenant de nombreuses dépendances peut rapidement gagner en complexité. En effet, à cause de ces dernières, un projet devient difficilement contrôlable en terme de complexité.
 
-Est-ce vraiment si facile de réutiliser ces dépendances ? Qu’en est-il de la qualité et qu’est-ce alors que cette qualité ? 
+Est-ce vraiment si facile de réutiliser ces dépendances ? Qu’en est-il de la "qualité" du projet et qu’est-ce alors que cette qualité ? 
 
 Nous vous proposons dans ce chapitre de vous présenter une démarche à suivre lors de l'arrivée dans un projet de taille conséquente en tant que développeur, pour mieux l'appréhender. Nous prenons appui sur notre retour d'expérience sur le projet ROCKFlows et ce à quoi nous avons été confrontés à notre arrivée sur ce dernier. 
 

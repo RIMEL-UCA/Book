@@ -24,7 +24,7 @@
 
 ## Code Quality in Open Source Projects \(XWiki\) \(2019\)
 
-* [Projet 1 : How to improve contributors onboarding](code-quality-in-open-source-projects-xwiki/contents.md)
+* [How to improve contributors onboarding](code-quality-in-open-source-projects-xwiki/contents.md)
 * [Comment identifier les zones "sensibles" d'un projet Open Source ?](code-quality-in-open-source-projects-xwiki/contents-1.md)
 
 ## Docker Ecosystem Analysis \(2018\)
